@@ -1,0 +1,5 @@
+{
+  "name": "Nova Remodeling Cost Calculator",
+  "description": "An embeddable micro app for usacabinetstore.com to help Northern Virginia homeowners get an instant estimate for kitchen, bathroom, or closet remodeling projects.",
+  "requestFramePermissions": []
+}

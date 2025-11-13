@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remodeling Cost Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          background-color: #fff;
+        }
+        .no-print {
+          display: none !important;
+        }
+        #root {
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            max-width: 100% !important;
+            padding: 0.5in !important;
+            margin: 0 !important;
+        }
+        main {
+            margin-top: 1rem !important;
+        }
+        .shadow-lg {
+            box-shadow: none !important;
+            border: 1px solid #e2e8f0;
+            border-radius: 0 !important;
+        }
+        .bg-blue-50 {
+            background-color: #EFF6FF !important;
+        }
+        .bg-gray-50 {
+            background-color: #F9FAFB !important;
+        }
+        .bg-yellow-50 {
+            background-color: #FEFCE8 !important;
+        }
+        h2, h3, h4 {
+            page-break-after: avoid;
+        }
+        .page-break-before {
+            page-break-before: always;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
